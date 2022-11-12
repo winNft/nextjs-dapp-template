@@ -37,23 +37,5 @@ export const SimpleScQeryDemo = ({
     }
   }, [cb, error, isLoading, isValidating, queryResult]);
 
-  return (
-    <FlexCardWrapper>
-      <Text mb={4}>
-        3. You will be querying the smart contract for NFT tokens left to mint:{' '}
-        <br />
-        <Link
-          href={`${networkConfig[chainType].explorerAddress}/accounts/${mintSmartContractAddress}`}
-          fontWeight="bold"
-        >
-          {shortenHash(mintSmartContractAddress, 8)}
-        </Link>{' '}
-        <br />
-        (devnet)
-      </Text>
-      <ActionButton disabled={isLoading || isValidating} onClick={fetch}>
-        <Text>Query</Text>
-      </ActionButton>
-    </FlexCardWrapper>
-  );
+
 };

@@ -28,22 +28,5 @@ export const SimpleEGLDTxDemo = ({
     });
   }, [triggerTx]);
 
-  return (
-    <FlexCardWrapper>
-      <Text mb={4}>
-        1. You will be sending 0.001 EGLD to the address: <br />
-        <Link
-          href={`${networkConfig[chainType].explorerAddress}/accounts/${egldTransferAddress}`}
-          fontWeight="bold"
-        >
-          {shortenHash(egldTransferAddress, 8)}
-        </Link>{' '}
-        <br />
-        (devnet)
-      </Text>
-      <ActionButton disabled={pending} onClick={handleSendTx}>
-        <Text>Send Transaction</Text>
-      </ActionButton>
-    </FlexCardWrapper>
-  );
+
 };

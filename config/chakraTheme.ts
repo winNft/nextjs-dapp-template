@@ -29,16 +29,16 @@ export const theme = extendTheme({
     },
   },
   fonts: {
-    heading: 'Poppins, sans-serif',
-    body: 'Poppins, sans-serif',
+    heading: 'Comfortaa, sans-serif',
+    body: 'Comfortaa, sans-serif',
   },
   colors: {
     dappTemplate: {
-      bgStripes: '#2c3440',
+      bgStripes: '#000000',
       shadowColor: '#141414',
       dark: {
-        lighter: '#3c4757',
-        base: '#222831',
+        lighter: '#f0c132',
+        base: '#000000',
         darker: '#1d222a',
       },
       light: '#FAFFFD',
@@ -49,14 +49,14 @@ export const theme = extendTheme({
         darker: '#1c7bda',
       },
       color2: {
-        lighter: '#b0dd49',
-        base: '#A2D729',
-        darker: '#8ab722',
+        lighter: '#f0c132',
+        base: '#F0c132',
+        darker: '#f0c132',
       },
       color3: {
-        lighter: '#fb9567',
-        base: '#FA824C',
-        darker: '#f9611c',
+        lighter: '#f0c132',
+        base: '#f0c132',
+        darker: '#f0c132',
       },
     },
   },

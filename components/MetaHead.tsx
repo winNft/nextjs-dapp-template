@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { FC, memo } from 'react';
-import { defaultMetaTags, dappHostname } from '../../config/constants';
+import { defaultMetaTags, dappHostname } from '../config/dappUi';
 
 export interface MetaHeadProps {
   metaTitle?: string;
@@ -18,7 +18,7 @@ export const MetaHead: FC<MetaHeadProps> = memo(
           name="description"
           content={metaDescription || defaultMetaTags.description}
         />
-        <meta name="author" content="winNft App"></meta>
+        <meta name="author" content="Elven Tools | www.elven.tools"></meta>
         <meta property="og:type" content="website" />
         <meta
           property="og:title"

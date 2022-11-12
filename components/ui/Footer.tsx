@@ -16,11 +16,9 @@ export const Footer = () => {
         fontWeight="normal"
         textAlign="center"
       >
-        <Box>Elrond NextJS Dapp Template (v{`${packageJson.version}`})</Box>
+        <Box>winNft (v{`${packageJson.version}`})</Box>
         <Box fontSize="xs" fontWeight="hairline">
-          All for free. Please support the project. Give it credit and tell the
-          world about it. Attribution is not required but welcomed in the form
-          of a backlink.
+          Created with ❤️ by winNft
         </Box>
         <Stack
           direction="row"
@@ -31,11 +29,11 @@ export const Footer = () => {
           <Text
             as="a"
             color="dappTemplate.color3.base"
-            href="https://github.com/ElrondDevGuild"
+            href="https://t.me/winNftOfficial"
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
-            {"Elrond's Dev Guild"}
+            {"Telegram"}
           </Text>
           <Text ml={2} mr={2}>
             {' '}
@@ -44,11 +42,11 @@ export const Footer = () => {
           <Text
             as="a"
             color="dappTemplate.color3.base"
-            href="https://www.julian.io"
+            href="https://discord.gg/bK6mwDSgxc"
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
-            {'julian.io'}
+            {'Discord'}
           </Text>
         </Stack>
       </Container>

@@ -12,14 +12,27 @@ export const Logo = () => {
         userSelect="none"
       >
         <Text
+          position="absolute"
+          right="0"
+          top="0"
+          fontSize="10px"
+          fontWeight="semibold"
+          px={1.5}
+          borderRadius="sm"
+          color="elvenTools.color2.base"
+        >
+          devnet
+        </Text>
+
+        <Text
           as="span"
           cursor="pointer"
           mb={0}
           fontSize="4xl"
           fontWeight="black"
-          color="dappTemplate.white"
+          color="elvenTools.white"
         >
-          winNft
+          Weird Faces
         </Text>
       </Box>
     </NextLink>

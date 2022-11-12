@@ -1,9 +1,9 @@
 {
-  "name": "nextjs-dapp-template",
+  "name": "winnft",
   "version": "2.2.2",
-  "author": "Julian Ćwirko <julian.io>",
+  "author": "CookieTiger ",
   "license": "MIT",
-  "homepage": "https://github.com/ElrondDevGuild/nextjs-dapp-template",
+  "homepage": "https://mintandwin.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/ElrondDevGuild/nextjs-dapp-template"
@@ -17,7 +17,7 @@
     "format": "prettier --write '**/*.{js,ts,tsx,json}'"
   },
   "dependencies": {
-    "@chakra-ui/react": "2.3.6",
+    "@chakra-ui/react": "^2.3.6",
     "@elrondnetwork/erdjs": "11.1.1",
     "@elrondnetwork/erdjs-extension-provider": "2.0.5",
     "@elrondnetwork/erdjs-hw-provider": "2.0.4",
@@ -26,9 +26,11 @@
     "@elrondnetwork/erdjs-web-wallet-provider": "2.1.1",
     "@emotion/react": "11.10.5",
     "@emotion/styled": "11.10.5",
-    "@fontsource/poppins": "4.5.10",
+    "@fontsource/comfortaa": "4.5.10",
+    "@hypertheme-editor/chakra-ui": "^0.1.6-rc.0",
     "bignumber.js": "9.1.0",
     "buffer": "6.0.3",
+    "cjs-loader": "^0.1.0",
     "crypto-browserify": "3.12.0",
     "date-fns": "2.29.3",
     "deep-equal": "2.0.5",
